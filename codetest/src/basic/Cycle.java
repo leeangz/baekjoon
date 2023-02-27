@@ -11,8 +11,6 @@ public class Cycle {
 		int cnt = 0;
 		int copy = N;
 		
-		sc.close();
-		
 		while(true) {
 			N =((N%10)*10) + (((N/10)+(N%10))%10);
 			cnt++;

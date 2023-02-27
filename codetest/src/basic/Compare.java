@@ -1,3 +1,4 @@
+
 package basic;
 
 import java.util.Scanner;
@@ -13,7 +14,6 @@ public class Compare {
 		else if ( A < B) System.out.println("<");
 		else System.out.println("==");
 		
-		sc.close();
 		
 	}
 

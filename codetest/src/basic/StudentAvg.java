@@ -22,7 +22,7 @@ public class StudentAvg {
 			int val = sc.nextInt();
 			arr[j] = val;
 			sum += val;
-		} sc.close();
+		}
 		
 		double avg = sum/N;
 		double cnt = 0;
