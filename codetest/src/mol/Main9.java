@@ -8,7 +8,8 @@ public class Main9 {
 		int answer = 0;
 		for(char x : s.toCharArray()) {
 			if(x>=48 && x<=57) answer=answer*10+(x-48);
-			// 48~57 알파벳 ASCII 범위
+			// 48~57 숫자 ASCII 범위
+			// 아스키코드값을 실제숫자값으로 변경
 		}
 		
 		return answer;
