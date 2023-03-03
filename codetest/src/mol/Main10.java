@@ -2,9 +2,11 @@ package mol;
 
 import java.util.Scanner;
 
+// 한 개의 문자열 s와 문자 t가 주어지면 문자열 s의 각 문자가 문자 t와 떨어진 최소거리를 출력하는 프로그램을 작성하세요.
+
 class Main10 {
 	public int[] solution(String s, char t){
-		int[] answer=new int[s.length()];
+		int[] answer=new int[s.length()]; // length만큼 답변 길이를 내놓아야함
 		int p=1000;
 		for(int i=0; i<s.length(); i++){
 			if(s.charAt(i)==t){
