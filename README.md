@@ -1,6 +1,7 @@
 # codetest
 baekjoon&amp;programmers
 
+```
 src
     ├─array
     ├─basic
@@ -9,7 +10,9 @@ src
     ├─study_0113
     ├─study_221011
     └─study_self1
+```
 
+```
 java algorithm
     ├─String
     ├─Array
@@ -21,3 +24,4 @@ java algorithm
     ├─DFS, BFS
     ├─Greedy Algorithm
     └─dynamic programming
+```
