@@ -1,4 +1,4 @@
-package mol;
+package algo_string;
 
 import java.util.Scanner;
 

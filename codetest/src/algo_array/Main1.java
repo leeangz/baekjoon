@@ -1,4 +1,4 @@
-package array;
+package algo_array;
 
 import java.util.ArrayList;
 import java.util.Scanner;
