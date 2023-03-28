@@ -1,4 +1,4 @@
-package programmers;
+package etc.programmers;
 
 class Solution {
     public boolean solution(String a) {

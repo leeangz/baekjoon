@@ -1,4 +1,4 @@
-package basic;
+package etc.basic;
 
 import java.io.FileInputStream;
 import java.util.Scanner;

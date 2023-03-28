@@ -1,4 +1,4 @@
-package basic;
+package etc.basic;
 
 public class MultiCatch {
 	public static void main(String[] args) {

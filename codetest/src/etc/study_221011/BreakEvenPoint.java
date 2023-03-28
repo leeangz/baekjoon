@@ -1,4 +1,4 @@
-package study_221011;
+package etc.study_221011;
 
 // 슈도코드
 

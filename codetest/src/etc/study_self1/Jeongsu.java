@@ -1,4 +1,4 @@
-package study_self1;
+package etc.study_self1;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package basic;
+package etc.basic;
 
 import java.util.Arrays;
 
