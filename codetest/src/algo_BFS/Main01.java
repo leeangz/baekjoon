@@ -1,7 +1,6 @@
-package algo_tree;
+package algo_BFS;
 
-//이진트리순회(DFS : Depth-First Search
-// 으렵다 으려워
+//이진트리 레벨탐색 : BFS=Breadth-First Search
 class Node{
 	int data;
 	Node lt, rt;
@@ -13,13 +12,8 @@ class Node{
 
 public class Main01 {
 	Node root;
-	public void DFS(Node root) {
-		if(root==null) return;
-		else {
-			DFS(root.lt);
-			DFS(root.rt);
-			System.out.print(root.data+" ");
-		}
+	public void BFS(Node root) {
+		
 	}
 	
 	public static void main(String args[]) {
@@ -31,7 +25,7 @@ public class Main01 {
 		tree.root.lt.rt = new Node(5);
 		tree.root.rt.lt = new Node(6);
 		tree.root.rt.rt = new Node(7);
-		tree.DFS(tree.root);
+		tree.BFS(tree.root); //100번지
 	}
 
 }
