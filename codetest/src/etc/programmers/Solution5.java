@@ -1,8 +1,14 @@
 package etc.programmers;
 
-class Solution4 {
-    public String solution(String code) {
-        
+import java.util.Scanner;
+
+class Solution5 {
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		String code = sc.next();
+    	
         char[] arr = new char[code.length()];
         
         for(int i=0;i<code.length();i++){
@@ -23,17 +29,10 @@ class Solution4 {
                 else if (arr[i]==1) mode=0;
             }
                        
+            
         }
         
-        return sb.toString();
-    }
-}
-
-
-class Main4 {
-    public static void main(String[] args) {
-        Solution4 s = new Solution4();
-        String code = "abc1abc1abc";
-        s.solution(code);
-    }
+        System.out.println(sb.toString());
+        
+	}
 }
